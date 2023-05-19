@@ -1,0 +1,47 @@
+Test Plan 1
+
+
+
+Overview:
+
+Test the functionality of Duel Duo
+
+
+Links:
+
+
+
+
+Test criteria:
+
+-The instructions section clearly explains how to play
+-"See All Bots" displays all of the cards
+-Each card displays its robot's portrait, name, health points, and damage points for two attacks
+-Win and loss counts are displayed for only the current browser session
+-"Draw" removes itself and displays five cards, which include an "Add to Duo" button as well, and a message explaining that the player must choose two
+-"Add to Duo" moves the card to another section that has a message explaining that it contains the player's cards, replacing "Add to Duo" with "Remove from Duo"
+-"Remove from Duo" moves the card back to the previous section
+-The player cards section is shown only if it contains cards
+-The "DUEL!" button is shown only when the player cards section contains two cards
+-If the player tries to add a third card, they are alerted that they can choose only two
+-"DUEL!" removes the rejected cards section, adds a section displaying two random cards that weren't offered to the player, and displays a message explaining that the outcome is being determined
+-When the app finishes determining the outcome, the message should be replaced with one explaining whether the player won or lost, the wins or losses counter increments, and a "Play again!" button is displayed
+-"Play again!" removes itself, the win/loss message, and the owned cards sections, and adds "Draw" back
+
+
+Entry criteria:
+
+-Received test criteria
+-Running test version
+-Connected to internet
+
+
+Exit criteria:
+
+-All tests passed
+-Time is up
+
+
+Other details:
+
+-Should work in any major browser

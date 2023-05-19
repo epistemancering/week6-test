@@ -1,0 +1,33 @@
+Bug Report 1 for Test Case 1
+
+
+
+5/19/2023 sprint 1.1
+
+
+Description:
+
+"See All Bots" is unresponsive.
+
+
+Steps to reproduce:
+
+1. Load 
+2. Click "See All Bots"
+
+
+Expected result:
+
+-The full list of cards are displayed
+-Each card displays its robot's portrait, name, health points, and damage points for two attacks
+
+
+Actual result:
+
+-No response
+
+
+Environment:
+
+-Chrome 113
+-Windows 11
