@@ -9,7 +9,7 @@ Test the functionality of Duel Duo
 
 Links:
 
-
+http://3.101.86.12/
 
 
 Test criteria:

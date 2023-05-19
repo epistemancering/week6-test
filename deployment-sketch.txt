@@ -1,0 +1,3 @@
+            my PC              -------------------->          Github           -------------------->                  Amazon                    <------------------->        users
+
+(develop front and back ends) (upload front and back) (store front and back) (download front and back) (store front and back, and run back) (HTTP requests and responses) (run front)

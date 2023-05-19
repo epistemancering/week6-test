@@ -12,7 +12,7 @@ Description:
 
 Steps to reproduce:
 
-1. Load 
+1. Load http://3.101.86.12/
 2. Click "See All Bots"
 
 
