@@ -18,12 +18,12 @@ describe("Duel Duo tests", () => {
   test("clicking the Draw button displays the div with id = \"choices\"", async function() {
     await driver.get("http://localhost:8000")
     await driver.findElement(By.css("#draw")).click()
-    await driver.wait(until.elementLocated(By.css("#choices")))
+    await driver.wait(until.elementLocated(By.css("#choices *")))
   })
   test("clicking an \"Add to Duo\" button displays the div with id = \"player-duo\"", async function() {
     await driver.get("http://localhost:8000")
     await driver.findElement(By.css("#draw")).click()
     await driver.findElement(By.css(".bot-btn")).click()
-    await driver.wait(until.elementLocated(By.css("#player-duo")))
+    await driver.wait(until.elementLocated(By.css("#player-duo *")))
   })
 });
